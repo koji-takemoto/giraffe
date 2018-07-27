@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 	robot.respond /who are you/i, (msg) ->
-		msg.send "I'm hubot!"
+		msg.send "I'm giraffe!"
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"

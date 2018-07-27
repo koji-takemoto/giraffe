@@ -11,6 +11,12 @@
 module.exports = (robot) ->
 	robot.respond /who are you/i, (msg) ->
 		msg.send "I'm giraffe!"
+		
+		
+robot.respond /you are a little slow/, (res) ->
+    setTimeout () ->
+    res.send "Who you calling 'slow'?"
+    , 60 * 1000
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"

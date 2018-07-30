@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n girffe
+web: bin/hubot -a slack -n giraffe

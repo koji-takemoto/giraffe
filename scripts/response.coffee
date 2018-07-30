@@ -11,9 +11,6 @@
 module.exports = (robot) ->
 	robot.respond /who are you/i, (msg) ->
 		msg.send "I'm giraffe!"
-		
-robot.hear /badger/i, (res) ->
-    es.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
